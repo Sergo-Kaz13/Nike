@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Nike</title>
+</head>
+<body>
+  <div class="wrapper">
+    <section class="section _container">
+      <div class="section__card card">
+        <div class="card__logo">
+          <a href="#" class="card__link">
+            <img src="assets/images/logo.png" alt="logo nike" class="card__img">
+          </a>
+        </div>
+        <div class="card__content content">
+          <div class="content__slider slider">
+            <input type="radio" class="slider__dot" name="point" id="slide1" checked>
+            <input type="radio" class="slider__dot" name="point" id="slide2">
+            <input type="radio" class="slider__dot" name="point" id="slide3">
+            <input type="radio" class="slider__dot" name="point" id="slide4">
+
+            <div class="slider__block">
+              <div class="slider__item slide1">
+                <img src="assets/images/Nike-SB-Stefan-Janoski-Max.png" alt="Nike" class="slider__img">
+              </div>
+              <div class="slider__item slide2">
+                <img src="assets/images/pngwing.com.png" alt="Nike" class="slider__img">
+              </div>
+              <div class="slider__item slide3">
+                <img src="assets/images/Без имени-1.png" alt="Nike" class="slider__img">
+              </div>
+              <div class="slider__item slide4">
+                <img src="assets/images/pngwing.com-1.png" alt="Nike" class="slider__img">
+              </div>
+            </div>
+
+            <div class="slieder__controls controls">
+              <label class="controls__item" for="slide1"></label>
+              <label class="controls__item" for="slide2"></label>
+              <label class="controls__item" for="slide3"></label>
+              <label class="controls__item" for="slide4"></label>
+            </div>
+          </div>
+
+          <div class="content__info info">
+            <h1 class="info__title">Nike SB Stefan Janoski Max</h1>
+            <h4 class="info__subtitle">Unisex Skateboarding Shoe</h4>
+
+            <div class="info__rating rating">
+              <input type="radio" class="rating__input" value="5" name="rating" id="star-5">
+              <label for="star-5" class="rating__label"></label>
+              <input type="radio" class="rating__input" value="4" name="rating" id="star-4">
+              <label for="star-4" class="rating__label"></label>
+              <input type="radio" class="rating__input" value="3" name="rating" id="star-3" checked>
+              <label for="star-3" class="rating__label"></label>
+              <input type="radio" class="rating__input" value="2" name="rating" id="star-2">
+              <label for="star-2" class="rating__label"></label>
+              <input type="radio" class="rating__input" value="1" name="rating" id="star-1">
+              <label for="star-1" class="rating__label rating__label-margin"></label>
+            </div>
+
+            <form action="#" class="form">
+              <select required name="Size" id="size" class="form__select select">
+                <option value="size" class="select__option">Size</option>
+                <option value="42" class="select__option">42</option>
+                <option value="43" class="select__option">43</option>
+                <option value="41" class="select__option">41</option>
+              </select>
+              <select required name="Qty" id="qty" class="form__select select">
+                <option value="Qty" class="select__option">Qty</option>
+                <option value="1" class="select__option">1</option>
+                <option value="2" class="select__option">2</option>
+                <option value="3" class="select__option">3</option>
+              </select>
+              <input type="button" value="Add to cart" class="form__btn">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
